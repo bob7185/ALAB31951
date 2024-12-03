@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/grades", grades);
-app.use("/grades", grades_agg);
+app.use("/grades_agg", grades_agg);
 
 // Global error handling
 app.use((err, _req, res, next) => {
